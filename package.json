@@ -1,0 +1,19 @@
+{
+  "name": "async-order-experiment",
+  "version": "1.0.0",
+  "description": "Experiment for async execution timing",
+  "keywords": [],
+  "author": "Jumpei Ogawa <phanective@gmail.com>",
+  "private": true,
+  "main": "src/main.js",
+  "scripts": {
+    "start": "node src/main.js",
+    "lint": "eslint --ext=.js,.jsx,.ts,.tsx ."
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@phanect/eslint-plugin": "latest"
+  }
+}
